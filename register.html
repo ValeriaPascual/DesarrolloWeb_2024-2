@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-register">
+        <h2>Crear una Cuenta</h2>
+        <form id="registerForm">
+            <input type="text" placeholder="Nombre" id="firstName" required>
+            <input type="text" placeholder="Apellido" id="lastName" required>
+            <input type="email" placeholder="Correo Electrónico" id="email" required>
+            <input type="password" placeholder="Contraseña" id="password" required>
+            <input type="password" placeholder="Confirmar Contraseña" id="confirmPassword" required>
+            <div class="form-buttons">
+                <button type="submit">Registrar</button>
+                <button type="button" id="loginBtn">Iniciar Sesión</button>
+                <!-- Opción de regresar a la pagina de bienvenida  -->
+                <button type="button" id="backBtn">Regresar</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
